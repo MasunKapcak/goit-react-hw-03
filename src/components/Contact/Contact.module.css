@@ -1,0 +1,41 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+/*
+.contactContainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 15px;
+}
+*/
+.contactItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactName,
+.contactNumber {
+  margin: 0;
+  font-size: 22px;
+}
+
+.contactName {
+  font-weight: 700;
+}
+.button {
+  display: flex;
+  width: auto;
+  height: 5px;
+  align-items: center;
+}
